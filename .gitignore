@@ -1,0 +1,2 @@
+# Ignore generated/copilot prompt files
+.github/prompts/*.prompt.md
