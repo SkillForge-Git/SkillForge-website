@@ -5,17 +5,21 @@
   <title>Skill-Forge – Die Technikschmiede</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Skill-Forge ist eine moderne Technikschmiede und Bildungseinrichtung mit Makerspace in Kamenz.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="sf-header">
     <div class="sf-container sf-header-inner">
-      <div class="sf-logo">Skill-Forge</div>
+      <a href="#start" class="sf-logo">Skill<span>Forge</span></a>
       <nav class="sf-nav">
         <a href="#start">Skill-Forge</a>
         <a href="#openspace">Open Space</a>
         <a href="#konzept">Konzept</a>
-        <a href="#kontakt">Kontakt</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#kontakt" class="sf-nav-cta">Kontakt</a>
       </nav>
     </div>
   </header>
@@ -24,7 +28,8 @@
     <!-- Start / Hero -->
     <section id="start" class="sf-section sf-hero">
       <div class="sf-container sf-hero-inner">
-        <div>
+        <div class="sf-hero-copy">
+          <span class="sf-eyebrow">Technikschmiede für Kamenz</span>
           <h1>Skill-Forge – Lernort & Makerspace in Kamenz</h1>
           <p>
             Skill-Forge ist eine offene Bildungseinrichtung und Makerspace. Hier kannst du
@@ -32,27 +37,35 @@
             entwickeln – von der ersten Skizze bis zum funktionierenden Prototyp.
           </p>
           <p class="sf-note">Hinweis: Skill-Forge befindet sich im Aufbau und diese Seite beschreibt eine Vision des geplanten Angebots.</p>
-          <p class="sf-hero-actions">
-            <a href="#kontakt" class="sf-btn-primary">Interesse melden</a>
-            <a href="#konzept" class="sf-btn-ghost">Mehr erfahren</a>
-          </p>
+          <div class="sf-hero-actions">
+            <a href="#kontakt" class="sf-btn sf-btn-primary">Interesse melden</a>
+            <a href="#konzept" class="sf-btn sf-btn-ghost">Mehr erfahren</a>
+          </div>
         </div>
-        <div class="sf-hero-badge">
+        <aside class="sf-hero-panel">
           <div class="sf-pill">Pilotstandort Kamenz</div>
-          <p>Für Jugendliche ab 12 Jahren und Erwachsene.</p>
-        </div>
+          <p class="sf-hero-panel-lead">Für Jugendliche ab 12 Jahren und Erwachsene.</p>
+          <ul class="sf-hero-list">
+            <li>Open-Lab-Zeiten und freie Werkstattnutzung</li>
+            <li>Kurse vom Einstieg bis zur IoT-Sensorbox</li>
+            <li>Community, Mentoring und Skill-Forge-Zertifikat</li>
+          </ul>
+        </aside>
       </div>
     </section>
 
     <!-- Open Space / Makerspace -->
     <section id="openspace" class="sf-section sf-section-alt">
       <div class="sf-container">
-        <h2>Open Space & Offene Werkstatt</h2>
-        <p>
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Open Space</span>
+          <h2>Open Space & Offene Werkstatt</h2>
+          <p>
           Der Makerspace von Skill-Forge ist ein Open Space für eigene Projekte. Hier
           bekommst du Zugang zu Werkzeugen, Maschinen und Know-how, auch wenn du zuhause
           keinen Platz oder kein Budget für eigene Ausstattung hast.
-        </p>
+          </p>
+        </div>
         <p>
           Es wird feste Open-Lab-Zeiten und Nutzung nach Absprache geben. In diesen
           Zeitfenstern kannst du an deinen Ideen arbeiten, Prototypen bauen oder Dinge
@@ -85,32 +98,40 @@
     <!-- Konzept -->
     <section id="konzept" class="sf-section">
       <div class="sf-container">
-        <h2>Konzept</h2>
-        <p>
-          Skill-Forge verbindet eine moderne Lernwerkstatt mit einem strukturierten Ausbildungskonzept.
-          Menschen ab etwa 12 Jahren bis ins Erwachsenenalter arbeiten an eigenen Projekten und
-          durchlaufen dabei klar definierte Lernbereiche – unsere „Forges“.
-          Am Ende steht ein sichtbares Ergebnis und auf Wunsch ein Skill-Forge-Zertifikat.
-        </p>
-        <p>
-          Die Schmiede-Metapher zieht sich durch alle Bereiche: Werkzeuge sind 3D-Drucker, Laser-Cutter
-          oder Lötstationen, Materialien sind Bauteile, PCBs oder Filament – und der Schmiedeprozess
-          ist der Weg von der Idee zur fertigen Lösung.
-        </p>
-        <p>
-          Ein leichtes Gamification-System unterstützt den Lernweg: Für abgeschlossene Lernbausteine
-          und Projekte gibt es Punkte und symbolische „Schmiedematerialien“. Projekte werden in GitHub
-          gepflegt, dokumentiert und veröffentlicht – andere können darauf aufbauen, sie forken oder
-          gemeinsam weiterentwickeln. Entscheidend ist der Lernprozess: Auch Experimente, Umwege und
-          vermeintlich „gescheiterte“ Projekte sind Teil der Skill-Forge-Erfahrung.
-        </p>
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Ansatz</span>
+          <h2>Konzept</h2>
+        </div>
+        <div class="sf-text-columns">
+          <p>
+            Skill-Forge verbindet eine moderne Lernwerkstatt mit einem strukturierten Ausbildungskonzept.
+            Menschen ab etwa 12 Jahren bis ins Erwachsenenalter arbeiten an eigenen Projekten und
+            durchlaufen dabei klar definierte Lernbereiche – unsere „Forges“.
+            Am Ende steht ein sichtbares Ergebnis und auf Wunsch ein Skill-Forge-Zertifikat.
+          </p>
+          <p>
+            Die Schmiede-Metapher zieht sich durch alle Bereiche: Werkzeuge sind 3D-Drucker, Laser-Cutter
+            oder Lötstationen, Materialien sind Bauteile, PCBs oder Filament – und der Schmiedeprozess
+            ist der Weg von der Idee zur fertigen Lösung.
+          </p>
+          <p>
+            Ein leichtes Gamification-System unterstützt den Lernweg: Für abgeschlossene Lernbausteine
+            und Projekte gibt es Punkte und symbolische „Schmiedematerialien“. Projekte werden in GitHub
+            gepflegt, dokumentiert und veröffentlicht – andere können darauf aufbauen, sie forken oder
+            gemeinsam weiterentwickeln. Entscheidend ist der Lernprozess: Auch Experimente, Umwege und
+            vermeintlich „gescheiterte“ Projekte sind Teil der Skill-Forge-Erfahrung.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Die Forges -->
     <section id="forges" class="sf-section sf-section-alt">
       <div class="sf-container">
-        <h2>Die Skill-Forge-Säulen</h2>
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Lernpfade</span>
+          <h2>Die Skill-Forge-Säulen</h2>
+        </div>
         <p>
           Jedes Projekt startet in der <strong>Idea Forge</strong> und endet in der
           <strong>Skill Forge</strong>. Dazwischen werden – je nach Projekt – Copper Forge,
@@ -177,10 +198,72 @@
       </div>
     </section>
 
+    <!-- Projekte & GitHub -->
+    <section id="projekte" class="sf-section">
+      <div class="sf-container">
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">GitHub Hub</span>
+          <h2>Live-Projekte aus der Skill-Forge-Git Organisation</h2>
+          <p>
+            Unsere GitHub-Organisation <strong>SkillForge-Git</strong> beherbergt Beispielprojekte,
+            Kursmaterialien und Community-Beiträge. Die folgenden Repositories zeigen einen Auszug
+            aus der aktuellen Arbeit.
+          </p>
+        </div>
+
+        <div class="sf-github-grid" data-github-grid>
+          <article class="sf-card sf-card-github">
+            <div class="sf-card-top">
+              <h3>SkillForge-Git</h3>
+              <p>Repos werden geladen&hellip;</p>
+            </div>
+            <footer class="sf-card-footer">
+              <a href="https://github.com/SkillForge-Git" target="_blank" rel="noreferrer">Zur Organisation</a>
+            </footer>
+          </article>
+        </div>
+
+        <div class="sf-github-template">
+          <div class="sf-github-template-copy">
+            <span class="sf-eyebrow">Projekt-Schmiede</span>
+            <h3>Template Repository: SkillForge Projekt-Schmiede</h3>
+            <p>
+              Das Template Repository bildet die Basis für jedes Skill-Forge-Projekt. Es enthält
+              Planungsvorlagen, Dokumentationsstruktur, Schritt-für-Schritt-Checklisten und ein
+              README-Template mit Platzhaltern für Bilder, Videos und Fortschritt.
+            </p>
+            <ul>
+              <li>Grobe Planung, Milestones und Ressourcentracking</li>
+              <li>Detailplanung pro Forge inklusive Lernziele</li>
+              <li>Dokumentationsordner für Fotos, Videos und Messdaten</li>
+              <li>Vorbereitete README-Abschnitte für Projektstory, Setup und Lessons Learned</li>
+            </ul>
+            <div class="sf-hero-actions">
+              <a class="sf-btn sf-btn-primary" href="https://github.com/SkillForge-Git/project-template" target="_blank" rel="noreferrer">Template öffnen</a>
+              <a class="sf-btn sf-btn-ghost" href="project-template.md" target="_blank" rel="noreferrer">Template-Guide</a>
+            </div>
+          </div>
+          <aside class="sf-github-template-meta">
+            <h4>Quick Facts</h4>
+            <ul>
+              <li>Repository-Typ: Template</li>
+              <li>Lizenz: MIT (geplant)</li>
+              <li>Checklisten je Forge inklusive Review-Hooks</li>
+              <li>GitHub Actions Vorschläge für Tests & Docs</li>
+            </ul>
+            <a class="sf-template-cta" href="https://github.com/orgs/SkillForge-Git/dashboard" target="_blank" rel="noreferrer">Weitere Repos ansehen</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
     <!-- Kurse & Projekte -->
     <section id="kurse" class="sf-section">
       <div class="sf-container">
-        <h2>Kurse & Projekte</h2>
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Programme</span>
+          <h2>Kurse & Projekte</h2>
+        </div>
         <p>
           Zu Beginn startet Skill-Forge mit überschaubaren, praxisnahen Kursen. Ziel ist,
           dass Teilnehmende am Ende ein eigenes Projekt in der Hand halten – und genau wissen,
@@ -225,7 +308,10 @@
     <!-- Kontakt -->
     <section id="kontakt" class="sf-section">
       <div class="sf-container">
-        <h2>Kontakt & Interesse</h2>
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Kontakt</span>
+          <h2>Kontakt & Interesse</h2>
+        </div>
         <p>
           Du hast Interesse an Skill-Forge, möchtest mitmachen, unterstützen oder eine Kooperation
           anbahnen?
@@ -251,5 +337,74 @@
       <span>Domains: skill-forge.de · skill-forge.eu</span>
     </div>
   </footer>
+
+  <script>
+    const grid = document.querySelector('[data-github-grid]');
+    const escapeHtml = (value) => String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+    if (grid) {
+      const organisation = 'SkillForge-Git';
+      fetch(`https://api.github.com/orgs/${organisation}/repos?sort=updated&per_page=6`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('GitHub API Fehler');
+          }
+          return response.json();
+        })
+        .then((repos) => {
+          if (!Array.isArray(repos) || repos.length === 0) {
+            grid.innerHTML = '<p class="sf-github-empty">Noch keine öffentlichen Repositories vorhanden.</p>';
+            return;
+          }
+
+          const fragment = document.createDocumentFragment();
+          repos
+            .filter((repo) => !repo.archived)
+            .forEach((repo) => {
+            const card = document.createElement('article');
+            card.className = 'sf-card sf-card-github';
+            card.innerHTML = `
+              <div class="sf-card-top">
+                <h3>${escapeHtml(repo.name)}</h3>
+                <p>${escapeHtml(repo.description ?? 'Kein Beschreibungstext hinterlegt.')}</p>
+                <div class="sf-card-meta">
+                  <span>&#9733; ${repo.stargazers_count}</span>
+                  <span>Forks ${repo.forks_count}</span>
+                  <span>${new Date(repo.updated_at).toLocaleDateString('de-DE')}</span>
+                </div>
+              </div>
+              <footer class="sf-card-footer">
+                <a href="${repo.html_url}" target="_blank" rel="noreferrer">Repository</a>
+                ${repo.homepage ? `<a href="${repo.homepage}" target="_blank" rel="noreferrer">Live-Demo</a>` : ''}
+              </footer>
+            `;
+            fragment.appendChild(card);
+            });
+          if (!fragment.childNodes.length) {
+            grid.innerHTML = '<p class="sf-github-empty">Noch keine öffentlichen Repositories vorhanden.</p>';
+            return;
+          }
+          grid.innerHTML = '';
+          grid.appendChild(fragment);
+        })
+        .catch(() => {
+          grid.innerHTML = `
+            <article class="sf-card sf-card-github-error">
+              <div class="sf-card-top">
+                <h3>GitHub aktuell nicht erreichbar</h3>
+                <p>Bitte später erneut versuchen oder direkt auf GitHub vorbeischauen.</p>
+              </div>
+              <footer class="sf-card-footer">
+                <a href="https://github.com/${organisation}" target="_blank" rel="noreferrer">GitHub öffnen</a>
+              </footer>
+            </article>
+          `;
+        });
+    }
+  </script>
 </body>
 </html>
