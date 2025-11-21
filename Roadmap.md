@@ -2,7 +2,7 @@
 
 ## Phase A – Grundlagen & Konzept
 - Vision finalisieren
-- Skill-Forge-Säulen definieren (Idea, Copper, Maker, Code, Skill)
+- Skill-Forge-Säulen definieren (Idea/Ideenschmiede, Copper/Kupferschmiede, Maker/Makerschmiede, Code/Codeschmiede, Skill/Skill-Schmiede)
 - Mini-Umfrage zu Bedarf & Interesse
 - GitHub-Struktur anlegen
 - Partner & Unterstützer ansprechen

@@ -7,11 +7,11 @@ Dieses Template hilft Teams von 12 bis 99 Jahren. Alles ist einfach gehalten, bl
 ```
 project-name/
 ├── 0-admin/               # Wer macht mit? Welche Termine?
-├── 1-idea-forge/          # Idee, Ziel, Materialliste
-├── 2-maker-forge/         # Bau-Plan, 3D-Druck, Laser
-├── 3-copper-forge/        # Elektronik
-├── 4-code-forge/          # Programmcode
-├── 5-skill-forge/         # Finale Ergebnisse
+├── 1-idea-forge/          # Idea Forge · Ideenschmiede (Idee, Ziel, Materialliste)
+├── 2-maker-forge/         # Maker Forge · Makerschmiede (Bau-Plan, 3D-Druck, Laser)
+├── 3-copper-forge/        # Copper Forge · Kupferschmiede (Elektronik)
+├── 4-code-forge/          # Code Forge · Codeschmiede (Programmcode)
+├── 5-skill-forge/         # Skill Forge · Skill-Schmiede (Finale Ergebnisse)
 ├── assets/
 │   ├── images/            # Fotos
 │   ├── videos/            # Videos

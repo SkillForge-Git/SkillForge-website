@@ -15,7 +15,7 @@ Die Teilnehmenden „schmieden“ ihre Projekte Schritt für Schritt – vom Kon
 Jedes Projekt durchläuft eine feste Start- und Abschlussphase.  
 Die dazwischenliegenden Bereiche sind flexibel und werden je nach Projekt gewählt.
 
-### **1. Idea Forge – Ideen, Planung & Struktur**
+### **1. Idea Forge (Ideenschmiede) – Ideen, Planung & Struktur**
 Jedes Projekt beginnt hier.  
 Inhalte:
 - Zielbild und grundlegende Idee  
@@ -27,7 +27,7 @@ Die Idea Forge legt die Basis für jedes Vorhaben – unabhängig davon, ob es s
 
 ---
 
-### **2. Copper Forge – Elektronik & PCB**
+### **2. Copper Forge (Kupferschmiede) – Elektronik & PCB**
 Dieser Bereich wird genutzt, wenn Projekte elektronische Komponenten benötigen.  
 Inhalte:
 - Elektronikgrundlagen  
@@ -40,7 +40,7 @@ Die Copper Forge vermittelt das Verständnis für elektrische Systeme und Platin
 
 ---
 
-### **3. Maker Forge – Konstruktion, CAD & Fertigung**
+### **3. Maker Forge (Makerschmiede) – Konstruktion, CAD & Fertigung**
 Hier entsteht die physische Form eines Projekts.  
 Inhalte:
 - CAD und 3D-Modelling  
@@ -53,7 +53,7 @@ Die Maker Forge vereint digitales Design und handwerkliche Fertigung.
 
 ---
 
-### **4. Code Forge – Programmierung & Automatisierung**
+### **4. Code Forge (Codeschmiede) – Programmierung & Automatisierung**
 Dieser Bereich wird genutzt, wenn ein Projekt Software benötigt.  
 Inhalte:
 - Mikrocontroller-Programmierung  
@@ -65,7 +65,7 @@ Die Code Forge macht Projekte intelligent, steuerbar und vernetzt.
 
 ---
 
-### **5. Skill Forge – Abschluss, Test & Zertifizierung**
+### **5. Skill Forge (Skill-Schmiede) – Abschluss, Test & Zertifizierung**
 Jedes Projekt endet hier.  
 Inhalte:
 - Zusammenbau  

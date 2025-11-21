@@ -10,12 +10,12 @@
 - Werkzeugsets (Zangen, Schraubendreher, Crimps, Feilen)
 - Materiallager (Holz, PLA, Acryl, Schrauben, Kleber)
 
-## Idea Forge (Planung & Doku)
+## Idea Forge (Ideenschmiede) – Planung & Doku
 - Whiteboard / Magnetwand
 - Tablets oder Laptops (für Recherchen, Skizzen)
 - Ordnerstruktur & GitHub-Templates
 
-## Copper Forge (Elektronik & PCB)
+## Copper Forge (Kupferschmiede) – Elektronik & PCB
 - Lötstationen (3×)
 - Heißluftstation
 - Löt- und Flux-Zubehör
@@ -25,7 +25,7 @@
 - Sortimente: Widerstände, Kondensatoren, ICs
 - KiCad auf PCs
 
-## Maker Forge (Konstruktion, CAD & Fertigung)
+## Maker Forge (Makerschmiede) – Konstruktion, CAD & Fertigung
 - 3D-Drucker (mind. 2)
 - Filamente (PLA, PETG)
 - Laser-Cutter
@@ -34,13 +34,13 @@
 - CAD-Software (Fusion 360 / Onshape)
 - Slicer-Software
 
-## Code Forge (Programmierung & IoT)
+## Code Forge (Codeschmiede) – Programmierung & IoT
 - Entwicklungsumgebungen (Arduino IDE, PlatformIO)
 - Debugging-Tools
 - WLAN-Testsetups
 - Beispiel-Roboter / kleine Fahrgestelle
 
-## Skill Forge (Testing & Abschluss)
+## Skill Forge (Skill-Schmiede) – Testing & Abschluss
 - Schraubzwingen, Kleber, Montagewerkzeug
 - Präsentationsfläche (Monitor / Beamer)
 - GitHub-Vorlagen für Dokumentation

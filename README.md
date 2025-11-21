@@ -11,19 +11,19 @@ Skill-Forge ist in fünf Bereiche unterteilt.
 Jedes Projekt beginnt mit Idea Forge und endet mit Skill Forge.  
 Die Bereiche dazwischen werden je nach Projekt individuell genutzt.
 
-### 1. Idea Forge – Ideen, Planung & Struktur
+### 1. Idea Forge (Ideenschmiede) – Ideen, Planung & Struktur
 Grundidee, Zielbild, Materialplanung, Projektstruktur, Doku-Struktur.
 
-### 2. Copper Forge – Elektronik & PCB
+### 2. Copper Forge (Kupferschmiede) – Elektronik & PCB
 Elektronik, Sensorik, Mikrocontroller, KiCad, PCB-Design, Löten.
 
-### 3. Maker Forge – Konstruktion, CAD & Fertigung
+### 3. Maker Forge (Makerschmiede) – Konstruktion, CAD & Fertigung
 CAD, 3D-Modelling, 3D-Druck, Laser-Cutting, CNC, Materialbearbeitung.
 
-### 4. Code Forge – Programmierung & Automatisierung
+### 4. Code Forge (Codeschmiede) – Programmierung & Automatisierung
 Microcontroller-Programmierung, IoT, Robotik, Software-Basics.
 
-### 5. Skill Forge – Abschluss, Testing & Zertifizierung
+### 5. Skill Forge (Skill-Schmiede) – Abschluss, Testing & Zertifizierung
 Zusammenbau, Testing, Troubleshooting, Dokumentation, Zertifikat.
 
 ## Ziele
