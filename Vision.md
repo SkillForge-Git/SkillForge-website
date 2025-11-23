@@ -1,33 +1,69 @@
 # Skill-Forge – Vision
 
-Skill-Forge ist eine offene Bildungseinrichtung für moderne Technik- und Maker-Kultur.  
+Skill-Forge ist eine offene Einrichtung für moderne Technik- und Maker-Kultur.  
 Der erste Standort entsteht in Kamenz und dient als Pilot für ein später wachsendes Netzwerk.
 
 ## Ziel
-Menschen ab 12 Jahren bis ins Erwachsenenalter dabei unterstützen, echte technische Fähigkeiten aufzubauen – von der ersten Idee bis zum fertigen Projekt.  
-Skill-Forge vermittelt Wissen praxisnah, verständlich und mit direktem Zugang zu Werkzeugen, Maschinen und echten Anwendungsszenarien.
+Skill-Forge ist ein Makerspace und eine offene Werkstatt: Ein Ort, an dem Menschen eigene Projekte umsetzen können. Wer zuhause keinen Platz, kein Budget oder keinen Zugang zu Technik hat, findet hier Raum, Tools und jede Menge Unterstützung. Es ist ein Platz zum Experimentieren und ein Platz zum Austausch zwischen IT, Handwerk und Maker und alle die es werden wollen.
 
-Gleichzeitig ist Skill-Forge ein Makerspace und eine offene Werkstatt: Ein Ort, an dem Menschen eigene Projekte umsetzen können – auch außerhalb von Kursen. Wer zuhause keinen Platz, kein Budget oder keinen Zugang zu Technik hat, findet hier Raum, Tools und Unterstützung.
+Es richtet sich an Menschen ab 12 Jahren bis ins Erwachsenenalter und unterstützt dabei, echte technische Fähigkeiten aufzubauen, von der ersten Idee bis zum fertigen Projekt.  
 
-Die Teilnehmenden „schmieden“ ihre Projekte Schritt für Schritt – vom Konzept bis zum fertigen Artefakt.
+Zusätzlich gibt es Kurse um seine Fähigkeiten auszubauen und Zertifiakte/Abschlüsse zu erwerben.
+Im Sinne des Namen SkillForge „schmieden“ die Zeilnehmer ihre Projekte und Talente Schritt für Schritt – vom Konzept bis zum fertigen Prototypen.
 
-## Das Skill-Forge-Säulensystem
-Jedes Projekt durchläuft eine feste Start- und Abschlussphase.  
+
+## Der Makerspace
+Der Makerspace steht offen für alle und ist grob in 5 Bereich geteilt, welche räumlich getrennt und durch die Säulen (siehe unten) repräsentiert werden. 
+Materialen können vor Ort erworben werden.
+
+Für die Maker stehen lokale Schließfächer zu Verfügung um ihre Projekte auch länger sicher zu verstauen.
+
+## Kurse und Zertifikate
+In jedem Kurs kann man zertifizierte Abschlüsse erwerben. Kurse/Projekt durchlaufen bis zu fünf Phasen (Säulen). Es gibt immer eine feste Start- und Abschlussphase.  
 Die dazwischenliegenden Bereiche sind flexibel und werden je nach Projekt gewählt.
+Zertifiziert wird nicht der Abschluss eines Projektes, sondern die Säule, welche innerhalb eines Projektes absolviert wurde. Die Teilnehmer haben haben die Möglichkeit ihr Können in den verschiedenen Säulen unter Beweis zu stellen, haben sie eine gemeistert, gibt es dafür das Zertifikat. Jedes Zertifikat der Säule wird je nach Komplexität in die drei Kategorien eingeteilt und je nach 'festigkeit' des erlenten Wissens in die Stufen (Eisenrang, Stahlrang, Titanrang) eingeordent.
 
-### **1. Idea Forge (Ideenschmiede) – Ideen, Planung & Struktur**
+Ein Durchfallen ist nicht möglich, man hat endlos Versuche ein Zertifikat zu erlangen. 
+
+### Projektwege & Community-Projekte
+Skill-Forge setzt auf offene Projektwege statt starrer Lerntrails oder festen Zielen.  
+
+Das konkrete Ziel eines Projekts wird nicht von Skill-Forge vorgegeben. Wichtig ist der Lernprozess, nicht die Perfektion des Ergebnisses: Auch ein „gescheitertes“ Projekt kann wertvoll sein, wenn Erfahrungen, Fehler und Entscheidungen verstanden und reflektiert werden.
+Der Erfolg eines Projektes hat keinen Einfluss auf den Erhalt eines Zertifikates.
+Das etwas nicht funktioniert und warum dies der Fall ist, ist gleichgewichtet mit dem Wissen, was funktioniert.
+
+Beispiele für mögliche Projektwege:
+- Einfache, lasergeschnittene Objekte (z.&nbsp;B. Flugzeuge aus Sperrholz oder kleine Deko-Elemente)  
+- 3D-gedruckte Gehäuse und funktionale Bauteile  
+- Elektronik-Gadgets mit Mikrocontrollern und Sensorik  
+- Vernetzte IoT-Geräte oder robotische Systeme, bis hin zu KI-gestützten Anwendungen  
+
+Für den erhalt eines Zertifikates ist grundsetzlich eine GitHub pflege und versionierung vorrausgesetzt. Jede Person kann:
+- eigene Projekte dokumentieren und veröffentlichen  
+- auf bestehende Projekte anderer aufbauen, sie forken und weiterentwickeln  
+- durch Reviews, Dokumentation und Mentoring ebenfalls Punkte und Anerkennung erhalten  
+
+So entsteht eine Community aus „Schmied:innen“, die nicht nur ihre eigenen Artefakte bauen, sondern Wissen und Projekte füreinander weitertragen.
+
+## Die 5-Säulen von SkillForge
+Skill Forge besteht aus 5 Säulen, welche inhaltlich getrennt sind.
+Jede Säule repräsentiert eine grobe Skillgruppe die Notwendig ist um eigene Projekte umzusetzen. 
+Das Wissen aus den Säulen soll den Teilnehmern helfen eigne Projekte auch im Berufsumfeld besser zu organisieren und zu planen. Und den Teilnehmern auch Selbstsicherheit auf den Weg geben, um scih an große Dinge heranzuwagen und den Umfang realsitisch einzuschätzen. 
+
+### **1. Ideenschmiede (Idea Forge) – Ideen, Planung & Struktur**
 Jedes Projekt beginnt hier.  
 Inhalte:
 - Zielbild und grundlegende Idee  
 - Anforderungen, Materialplanung, Zeitplanung  
 - Projektstruktur und Dokumentationsaufbau  
-- Erste Skizzen, einfache Layouts oder Logikmodelle  
+- Erste Skizzen, einfache Layouts oder Logikmodelle
+- Anlegen des Projektes in Git
 
-Die Idea Forge legt die Basis für jedes Vorhaben – unabhängig davon, ob es später Elektronik, CAD, Programmierung oder reine Handarbeit beinhaltet.
+Die Ideenschmiede legt die Basis für jedes Vorhaben – unabhängig davon, ob es später Elektronik, CAD, Programmierung oder reine Handarbeit beinhaltet.
 
 ---
 
-### **2. Copper Forge (Kupferschmiede) – Elektronik & PCB**
+### **2. Kupferschmiede (Cooper-Forge) – Elektronik & PCB**
 Dieser Bereich wird genutzt, wenn Projekte elektronische Komponenten benötigen.  
 Inhalte:
 - Elektronikgrundlagen  
@@ -40,20 +76,22 @@ Die Copper Forge vermittelt das Verständnis für elektrische Systeme und Platin
 
 ---
 
-### **3. Maker Forge (Makerschmiede) – Konstruktion, CAD & Fertigung**
+### **3. Produktschmiede (Maker Forge) – Konstruktion, CAD & Fertigung**
 Hier entsteht die physische Form eines Projekts.  
 Inhalte:
+- Design
 - CAD und 3D-Modelling  
 - Gehäusedesign  
 - 3D-Druck  
 - Laser-Cutting  
 - CNC und Materialbearbeitung  
+- Handwerksarbeiten
 
-Die Maker Forge vereint digitales Design und handwerkliche Fertigung.
+Die Produktschmiede vereint digitales Design und handwerkliche Fertigung.
 
 ---
 
-### **4. Code Forge (Codeschmiede) – Programmierung & Automatisierung**
+### **4. Codeschmiede (Code Forge) – Programmierung & Automatisierung**
 Dieser Bereich wird genutzt, wenn ein Projekt Software benötigt.  
 Inhalte:
 - Mikrocontroller-Programmierung  
@@ -61,11 +99,11 @@ Inhalte:
 - Robotik  
 - Automatisierung und Software-Basics  
 
-Die Code Forge macht Projekte intelligent, steuerbar und vernetzt.
+Die Codeschmiede macht Projekte intelligent, steuerbar und vernetzt.
 
 ---
 
-### **5. Skill Forge (Skill-Schmiede) – Abschluss, Test & Zertifizierung**
+### **5. Talent Schmiede (Skill Forge) – Abschluss, Test & Zertifizierung**
 Jedes Projekt endet hier.  
 Inhalte:
 - Zusammenbau  
@@ -80,31 +118,13 @@ Die Skill Forge bestätigt die erlernten Kompetenzen und macht Ergebnisse sichtb
 ---
 
 ## Gamification
-Ein leichtgewichtiges Gamification-System unterstützt den Lernprozess:
-- Fortschritt wird durch Punkte sichtbar  
-- Symbolische „Schmiedematerialien“ stehen für erreichte Lernbausteine  
-- Freischaltungen motivieren und zeigen Lernstufen  
+Ein Gamification-System liegt über allem:
+- Fortschritt wird durch Punkte sichtbar 
+- Symbolische „Schmiedematerialien“ wie 3D-Druck, Planung, Git, Löten und Programmierung stehen für erreichte Lernbausteine/Skills die man erhalten hat.  
+- Freischaltbare Embleme.
+- Freischaltungen motivieren und zeigen Lernstufen.
 
 Alles bleibt optional, pädagogisch sinnvoll und transparent.
-
-## Projektwege & Community-Projekte
-Skill-Forge setzt auf offene Projektwege statt starrer Lerntrails.  
-Die Teilnehmenden arbeiten an Projekten mit wachsender Komplexität und steigendem Umfang – von kleinen, überschaubaren Einstiegsprojekten bis hin zu sehr anspruchsvollen Systemen.
-
-Beispiele für mögliche Projektwege:
-- Einfache, lasergeschnittene Objekte (z.&nbsp;B. Flugzeuge aus Sperrholz oder kleine Deko-Elemente)  
-- 3D-gedruckte Gehäuse und funktionale Bauteile  
-- Elektronik-Gadgets mit Mikrocontrollern und Sensorik  
-- Vernetzte IoT-Geräte oder robotische Systeme, bis hin zu KI-gestützten Anwendungen  
-
-Das konkrete Ziel eines Projekts wird nicht von Skill-Forge vorgegeben. Wichtig ist der Lernprozess, nicht die Perfektion des Ergebnisses: Auch ein „gescheitertes“ Projekt kann wertvoll sein, wenn Erfahrungen, Fehler und Entscheidungen verstanden und reflektiert werden.
-
-Projekte werden in GitHub gepflegt und versioniert. Jede Person kann:
-- eigene Projekte dokumentieren und veröffentlichen  
-- auf bestehende Projekte anderer aufbauen, sie forken und weiterentwickeln  
-- durch Reviews, Dokumentation und Mentoring ebenfalls Punkte und Anerkennung erhalten  
-
-So entsteht eine Community aus „Schmied:innen“, die nicht nur ihre eigenen Artefakte bauen, sondern Wissen und Projekte füreinander weitertragen.
 
 ## Langfristige Vision
 Skill-Forge soll mittelfristig zu einem Netzwerk aus technisch orientierten Lernorten wachsen.  
