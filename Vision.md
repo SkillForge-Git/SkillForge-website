@@ -1,16 +1,22 @@
 # Skill-Forge – Vision
 
-Skill-Forge ist eine offene Einrichtung für moderne Technik- und Maker-Kultur.  
+Skill-Forge ist eine offene Bildungseinrichtung für moderne Technik- und Maker-Kultur.  
 Der erste Standort entsteht in Kamenz und dient als Pilot für ein später wachsendes Netzwerk.
 
 ## Ziel
-Skill-Forge ist ein Makerspace und eine offene Werkstatt: Ein Ort, an dem Menschen eigene Projekte umsetzen können. Wer zuhause keinen Platz, kein Budget oder keinen Zugang zu Technik hat, findet hier Raum, Tools und jede Menge Unterstützung. Es ist ein Platz zum Experimentieren und ein Platz zum Austausch zwischen IT, Handwerk und Maker und alle die es werden wollen.
+Skill-Forge ist ein Makerspace und eine offene Werkstatt: Ein Ort, an dem Menschen eigene Projekte umsetzen können. Wer zuhause keinen Platz, kein Budget oder keinen Zugang zu Technik hat, findet hier Raum, Tools und jede Menge Unterstützung. Es ist ein Platz zum Experimentieren und ein Platz zum Austausch zwischen IT, Handwerk und Maker und alle, die es werden wollen.
 
-Es richtet sich an Menschen ab 12 Jahren bis ins Erwachsenenalter und unterstützt dabei, echte technische Fähigkeiten aufzubauen, von der ersten Idee bis zum fertigen Projekt.  
+Es richtet sich an Menschen ab 12 Jahren bis ins Erwachsenenalter und unterstützt dabei, echte technische Fähigkeiten aufzubauen – von der ersten Idee bis zum fertigen Projekt.  
 
-Zusätzlich gibt es Kurse um seine Fähigkeiten auszubauen und Zertifiakte/Abschlüsse zu erwerben.
-Im Sinne des Namen SkillForge „schmieden“ die Zeilnehmer ihre Projekte und Talente Schritt für Schritt – vom Konzept bis zum fertigen Prototypen.
+Zusätzlich gibt es Kurse, um die eigenen Fähigkeiten auszubauen und Zertifikate/Abschlüsse zu erwerben. Im Sinne des Namens Skill-Forge „schmieden“ die Teilnehmenden ihre Projekte und Talente Schritt für Schritt – vom Konzept bis zum fertigen Prototypen.
 
+Skill-Forge möchte eng mit Bildungseinrichtungen und ähnlichen Vereinen zusammenarbeiten und die Community aktiv bereichern und unterstützen.
+
+Konkret verfolgt Skill-Forge vier Kernziele:
+- **Zugang**: Ein niedrigschwelliger Ort für Technik, Making und digitale Projekte – unabhängig von Budget, Vorwissen oder Herkunft.  
+- **Kompetenzaufbau**: Strukturiertes Lernen entlang der fünf Skill-Forge-Säulen (Ideenschmiede/Idea Forge, Kupferschmiede/Copper Forge, Produktschmiede/Maker Forge, Codeschmiede/Code Forge, Talent Schmiede/Skill Forge).  
+- **Community**: Menschen vernetzen, die sich gegenseitig unterstützen, Wissen teilen und gemeinsam an Projekten arbeiten.  
+- **Sichtbare Ergebnisse**: Projekte, Zertifikate und GitHub-Profile machen Lernfortschritte sichtbar und nachvollziehbar.
 
 ## Der Makerspace
 Der Makerspace steht offen für alle und ist grob in 5 Bereich geteilt, welche räumlich getrennt und durch die Säulen (siehe unten) repräsentiert werden. 
@@ -118,13 +124,15 @@ Die Skill Forge bestätigt die erlernten Kompetenzen und macht Ergebnisse sichtb
 ---
 
 ## Gamification
-Ein Gamification-System liegt über allem:
-- Fortschritt wird durch Punkte sichtbar 
-- Symbolische „Schmiedematerialien“ wie 3D-Druck, Planung, Git, Löten und Programmierung stehen für erreichte Lernbausteine/Skills die man erhalten hat.  
-- Freischaltbare Embleme.
-- Freischaltungen motivieren und zeigen Lernstufen.
+Ein leicht verständliches Gamification-System liegt über allem. Es soll motivieren, ohne zu stressen:
+- Fortschritt wird durch einfache Punkte und Symbole sichtbar.  
+- Symbolische „Schmiedematerialien“ wie 3D-Druck, Planung, Git, Löten und Programmierung stehen für erreichte Lernbausteine/Skills.  
+- Freischaltbare Embleme (Badges) zeigen, welche Säulen schon gut beherrscht werden.  
+- Freischaltungen motivieren und machen Lernstufen nachvollziehbar.
 
-Alles bleibt optional, pädagogisch sinnvoll und transparent.
+Ein mögliches Beispiel: In einem Elektronik-Kurs in der Kupferschmiede (Copper Forge) gibt es drei Stufen – **Eisenrang**, **Stahlrang** und **Titanrang**. Eisenrang bedeutet: „ich habe eine einfache Schaltung aufgebaut und verstanden“. Stahlrang: „ich kann selbst kleine Änderungen planen und testen“. Titanrang: „ich kann eine eigene kleine Platine entwerfen, dokumentieren und jemand anderem erklären“.
+
+Wichtig ist: Alles bleibt optional, pädagogisch sinnvoll und transparent. Gamification soll Lernprozesse unterstützen – nicht zu Wettbewerb oder Leistungsdruck führen.
 
 ## Langfristige Vision
 Skill-Forge soll mittelfristig zu einem Netzwerk aus technisch orientierten Lernorten wachsen.  
