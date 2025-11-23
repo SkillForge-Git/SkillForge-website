@@ -8,30 +8,29 @@ Teilnehmende „schmieden“ ihre Projekte von der ersten Idee bis zum fertigen 
 
 ## Die fünf Skill-Forge-Säulen
 Skill-Forge ist in fünf Bereiche unterteilt.  
-Jedes Projekt beginnt mit Idea Forge und endet mit Skill Forge.  
-Die Bereiche dazwischen werden je nach Projekt individuell genutzt.
+Jedes Projekt beginnt in der Ideenschmiede und endet in der Talent Schmiede.  
+Die Bereiche dazwischen werden je nach Projekt individuell genutzt. Die englischen Forge-Bezeichnungen dienen nur als Hinweis.
 
-### 1. Idea Forge (Ideenschmiede) – Ideen, Planung & Struktur
+### 1. Ideenschmiede – Ideen, Planung & Struktur *(Idea Forge)*
 Grundidee, Zielbild, Materialplanung, Projektstruktur, Doku-Struktur.
 
-### 2. Copper Forge (Kupferschmiede) – Elektronik & PCB
+### 2. Kupferschmiede – Elektronik & PCB *(Copper Forge)*
 Elektronik, Sensorik, Mikrocontroller, KiCad, PCB-Design, Löten.
 
-### 3. Maker Forge (Makerschmiede) – Konstruktion, CAD & Fertigung
+### 3. Produktschmiede – Konstruktion, CAD & Fertigung *(Maker Forge)*
 CAD, 3D-Modelling, 3D-Druck, Laser-Cutting, CNC, Materialbearbeitung.
 
-### 4. Code Forge (Codeschmiede) – Programmierung & Automatisierung
+### 4. Codeschmiede – Programmierung & Automatisierung *(Code Forge)*
 Microcontroller-Programmierung, IoT, Robotik, Software-Basics.
 
-### 5. Skill Forge (Skill-Schmiede) – Abschluss, Testing & Zertifizierung
+### 5. Talent Schmiede – Abschluss, Testing & Zertifizierung *(Skill Forge)*
 Zusammenbau, Testing, Troubleshooting, Dokumentation, Zertifikat.
 
-## Ziele
-- Technik für alle zugänglich machen  
-- Kinder ab 12 und Erwachsene praxisnah an moderne Technologien heranführen  
-- Projekte komplett begleiten – von der Idee bis zum fertigen Artefakt  
-- Offizielle Skill-Forge-Zertifikate für echte Kompetenznachweise anbieten  
-- Einen offenen Makerspace mit Werkzeugen, Maschinen und Know-how betreiben  
+## Kernziele
+- **Zugang**: Technik, Making und digitale Projekte sollen unabhängig von Budget, Vorwissen oder Herkunft erlebbar sein.
+- **Kompetenzaufbau**: Strukturierte Lernpfade entlang der fünf Skill-Forge-Säulen (Ideenschmiede · Idea Forge, Kupferschmiede · Copper Forge, Produktschmiede · Maker Forge, Codeschmiede · Code Forge, Talent Schmiede · Skill Forge) führen von der Idee bis zum fertigen Artefakt.
+- **Community**: Menschen unterstützen sich gegenseitig, teilen Wissen und arbeiten gemeinsam an Projekten.
+- **Sichtbare Ergebnisse**: Projekte, Zertifikate und GitHub-Profile machen Lernfortschritte transparent und nachvollziehbar.
 
 ## Projektstruktur in diesem Repository
 - **Vision.md** – Die Grundidee und das pädagogische Konzept  

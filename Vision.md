@@ -69,7 +69,7 @@ Die Ideenschmiede legt die Basis für jedes Vorhaben – unabhängig davon, ob e
 
 ---
 
-### **2. Kupferschmiede (Cooper-Forge) – Elektronik & PCB**
+### **2. Kupferschmiede (Copper Forge) – Elektronik & PCB**
 Dieser Bereich wird genutzt, wenn Projekte elektronische Komponenten benötigen.  
 Inhalte:
 - Elektronikgrundlagen  
@@ -78,7 +78,7 @@ Inhalte:
 - KiCad und PCB-Layout  
 - Bestückung und Löten  
 
-Die Copper Forge vermittelt das Verständnis für elektrische Systeme und Platinen.
+Die Kupferschmiede (Copper Forge) vermittelt das Verständnis für elektrische Systeme und Platinen.
 
 ---
 
@@ -119,7 +119,7 @@ Inhalte:
 - Präsentation  
 - Skill-Forge-Zertifikat  
 
-Die Skill Forge bestätigt die erlernten Kompetenzen und macht Ergebnisse sichtbar.
+Die Talent Schmiede (Skill Forge) bestätigt die erlernten Kompetenzen und macht Ergebnisse sichtbar.
 
 ---
 

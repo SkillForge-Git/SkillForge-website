@@ -2,7 +2,7 @@
 
 ## Phase A – Grundlagen & Konzept
 - Vision finalisieren
-- Skill-Forge-Säulen definieren (Idea/Ideenschmiede, Copper/Kupferschmiede, Maker/Makerschmiede, Code/Codeschmiede, Skill/Skill-Schmiede)
+- Skill-Forge-Säulen definieren (Ideenschmiede · Idea Forge, Kupferschmiede · Copper Forge, Produktschmiede · Maker Forge, Codeschmiede · Code Forge, Talent Schmiede · Skill Forge)
 - Mini-Umfrage zu Bedarf & Interesse
 - GitHub-Struktur anlegen
 - Partner & Unterstützer ansprechen
@@ -20,8 +20,8 @@
 - Start-Equipment kaufen
 - Sicherheits- & Einweisungsregeln pro Maschine definieren
 - Einweisungssystem („Forge-Lizenzen“) aufbauen
- - Lockersystem/Schließfächer für persönliche Materialien und Projekte einrichten
- - Open-Lab-Zeiten definieren (z.B. 1–2 feste Abende/Woche) und Nutzung nach Absprache regeln
+- Lockersystem/Schließfächer für persönliche Materialien und Projekte einrichten
+- Open-Lab-Zeiten definieren (z.B. 1–2 feste Abende/Woche) und Nutzung nach Absprache regeln
 
 ## Phase D – Kurs- & Zertifikatsentwicklung
 - Kurse für alle fünf Säulen entwerfen
@@ -29,8 +29,8 @@
 - Zertifikatskriterien festlegen
 - GitHub-basierte Lernmaterialien erstellen
 - Beta-Kurse testen und optimieren
- - Erste Lernpfade („Trails“) mit Levels (z.B. Elektronik Bronze/Silber/Gold) definieren
- - Punkte- und Badge-Logik grob festlegen (Gamification light)
+- Erste Lernpfade („Trails“) mit Levels (z.B. Elektronik Eisenrang/Stahlrang/Titanrang) definieren
+- Punkte- und Badge-Logik grob festlegen (Gamification optional & transparent)
 
 ## Phase E – Finanzierung & Sponsoring
 - Lokale Firmen, Schulen & Kommunen ansprechen
@@ -48,5 +48,5 @@
 - Standardisierte Kursmaterialien entwickeln
 - Struktur für weitere Standorte vorbereiten
 - Kooperationen mit Schulen & Firmen ausweiten
- - GitHub-Projektgalerie und Community-Features ausbauen (Forks, gemeinsame Projekte, Mentoring)
- - Lernpfade und Gamification-System verfeinern und auf weitere Standorte übertragen
+- GitHub-Projektgalerie und Community-Features ausbauen (Forks, gemeinsame Projekte, Mentoring)
+- Lernpfade und Gamification-System verfeinern und auf weitere Standorte übertragen
