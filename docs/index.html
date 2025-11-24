@@ -16,8 +16,7 @@
       <a href="index.html" class="logo">Skill<span>Forge</span></a>
       <button class="nav-toggle" data-nav-toggle aria-expanded="false">Menü</button>
       <nav class="site-nav" data-nav>
-        <a href="index.html" class="site-nav__link is-active">Start</a>
-        <a href="konzept.html" class="site-nav__link">Konzept</a>
+        <a href="index.html" class="site-nav__link is-active">Konzept</a>
         <a href="open-space.html" class="site-nav__link">Open Space</a>
         <a href="bildung.html" class="site-nav__link">Bildung</a>
         <a href="spielerisch.html" class="site-nav__link">Spielerisch lernen</a>
@@ -34,8 +33,7 @@
           <h1 class="hero__title">Wir bauen einen offenen Technikcampus, an dem Ideen zu Prototypen werden.</h1>
           <p class="hero__text">Skill-Forge vereint Makerspace, Lernpfade und Community. Menschen ab 12 Jahren erhalten Zugang zu Werkzeugen, Mentor:innen und Zertifikaten – unabhängig vom Budget. Alles, was entsteht, wird in GitHub dokumentiert und bleibt nachvollziehbar.</p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="konzept.html">Konzept kennenlernen</a>
-            <a class="btn btn--ghost" href="kontakt.html">Fördergespräch anfragen</a>
+            <a class="btn btn--primary" href="kontakt.html">Fördergespräch anfragen</a>
           </div>
           <div class="kpi-grid">
             <article class="kpi-card">
@@ -63,7 +61,7 @@
       <div class="section__inner">
         <span class="section__eyebrow">Warum Skill-Forge?</span>
         <h2 class="section__title">Vier Versprechen an Stadt, Bildungspartner und Förder:innen</h2>
-        <p class="section__lead">Die Vision aus Vision.md wird erlebbar: Zugang, Kompetenzen, Community und sichtbare Ergebnisse. Jede Karte knüpft direkt an unsere Förderziele an.</p>
+        <p class="section__lead">Die grundlegende Vision hinter Skill-Forge wird hier greifbar: Zugang, Kompetenzen, Community und sichtbare Ergebnisse. Jede Karte knüpft direkt an unsere Förderziele an.</p>
         <div class="card-grid">
           <article class="card card--glass">
             <div class="icon-chip"><img src="https://cdn.jsdelivr.net/npm/lucide-static@0.294.0/icons/door-open.svg" alt="Icon Zugang"></div>
@@ -129,6 +127,22 @@
       </div>
     </section>
 
+    <section class="section--alt">
+      <div class="section__inner">
+        <span class="section__eyebrow">GitHub Spotlight</span>
+        <h2 class="section__title">Unsere digitale Werkbank</h2>
+        <p class="section__lead">Alle Projektideen, geplanten Kurse und Templates leben perspektivisch in der GitHub-Organisation. So lassen sich Fortschritte auditieren und Wissen teilen.</p>
+        <div id="repo-list" class="card-grid" style="margin-top:2.5rem;"></div>
+        <div class="callout">
+          <h3>Projekt-Template</h3>
+          <p>Das Template-Repository enthält Checklisten, Canvas, Sicherheits- und Dokumentationsvorlagen für jede Schmiede.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="https://github.com/SkillForge-Git/skillforge-template" target="_blank" rel="noopener">Template öffnen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="section__inner">
         <span class="section__eyebrow">Bausteine</span>
@@ -162,32 +176,6 @@
       </div>
     </section>
 
-    <section class="section--alt">
-      <div class="section__inner">
-        <span class="section__eyebrow">Vertiefung</span>
-        <h2 class="section__title">Vision & Unterseiten</h2>
-        <p class="section__lead">Die Vision.md dient als vollständige Guideline. Die Unterseiten dieser Website greifen die Inhalte auf und bereiten sie für Gespräche mit Stadt, Schulen und Sponsor:innen auf.</p>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <strong>Konzept</strong>
-            <p>Strategie, Finanzierungsbedarf und GitHub-Spotlight.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Open Space</strong>
-            <p>Raumplan, Sicherheit, Ausstattung je Schmiede.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Bildung</strong>
-            <p>Kurse, Zertifikate, Projektwege & Community-Beiträge.</p>
-          </article>
-          <article class="feature-card">
-            <strong>Spielerisch lernen</strong>
-            <p>Gamification-Ansatz, Quests & die fünf Säulen.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <div class="cta-banner">
       <div class="cta-banner__copy">
         <h2>Wir suchen Partner:innen, die Technikbildung beschleunigen.</h2>
@@ -195,7 +183,6 @@
       </div>
       <div class="hero__actions">
         <a class="btn btn--primary" href="kontakt.html">Gespräch vereinbaren</a>
-        <a class="btn btn--ghost" href="../Vision.md" target="_blank" rel="noopener">Vision.md öffnen</a>
       </div>
     </div>
   </main>
@@ -215,6 +202,37 @@
       nav?.setAttribute('data-open', String(!isOpen));
       navToggle.setAttribute('aria-expanded', String(!isOpen));
     });
+
+    async function loadRepos() {
+      const list = document.getElementById('repo-list');
+      if (!list) return;
+      list.innerHTML = '<p class="section__lead">Lade Projekte…</p>';
+      try {
+        const response = await fetch('https://api.github.com/orgs/SkillForge-Git/repos?sort=updated&per_page=6');
+        if (!response.ok) throw new Error('Antwortfehler');
+        const data = await response.json();
+        if (!data.length) {
+          list.innerHTML = '<p class="section__lead">Noch keine öffentlichen Repositories.</p>';
+          return;
+        }
+        list.innerHTML = data
+          .map(repo => `
+            <article class="card card--glass">
+              <h3>${repo.name}</h3>
+              <p>${repo.description || 'Projektbeschreibung folgt.'}</p>
+              <div class="hero__actions" style="margin-top:1rem;">
+                <a class="btn btn--ghost" href="${repo.html_url}" target="_blank" rel="noopener">Auf GitHub öffnen</a>
+              </div>
+            </article>
+          `)
+          .join('');
+      } catch (error) {
+        console.error(error);
+        list.innerHTML = '<p class="section__lead">GitHub-Daten konnten nicht geladen werden.</p>';
+      }
+    }
+
+    loadRepos();
   </script>
 </body>
 </html>
