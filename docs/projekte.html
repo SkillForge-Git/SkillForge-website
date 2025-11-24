@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Skill-Forge – Projekte & GitHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Live-Projekte, Repositories und Vorlagen der GitHub-Organisation SkillForge-Git." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-projekte">
+  <header class="sf-header">
+    <div class="sf-container sf-header-inner">
+      <a href="index.html" class="sf-logo">Skill<span>Forge</span></a>
+      <nav class="sf-nav">
+        <a href="index.html">Start</a>
+        <a href="vision.html">Vision</a>
+        <a href="schmieden.html">Schmieden</a>
+        <a href="programme.html">Programme</a>
+        <a href="projekte.html" class="is-current">Projekte</a>
+        <a href="kontakt.html" class="sf-nav-cta">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="sf-section sf-section-alt">
+      <div class="sf-container sf-page-intro">
+        <span class="sf-eyebrow">GitHub Hub</span>
+        <h1>Projekte, Vorlagen & Community</h1>
+        <p>Skill-Forge nutzt GitHub als digitale Werkbank. Repositories dokumentieren Projekte, Lernmaterialien und Automatisierungen. Hier entstehen die Artefakte der Schmiede.</p>
+      </div>
+    </section>
+
+    <section class="sf-section">
+      <div class="sf-container">
+        <div class="sf-section-header">
+          <h2>Live-Repositories der Organisation SkillForge-Git</h2>
+          <p>Die Liste wird direkt über die GitHub-API geladen und zeigt die aktuellsten öffentlichen Repositories.</p>
+        </div>
+        <div class="sf-github-grid" data-github-grid>
+          <p class="sf-github-empty">Repos werden geladen…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sf-section sf-section-alt">
+      <div class="sf-container">
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Projekt-Schmiede</span>
+          <h2>Template Repository: SkillForge Projekt-Schmiede</h2>
+        </div>
+        <div class="sf-github-template">
+          <div class="sf-github-template-copy">
+            <p>Das Template bildet die Basis für jedes Skill-Forge-Projekt. Es enthält strukturierte Ordner, Checklisten und Steckbrief-Abschnitte – passend zu den fünf Schmieden.</p>
+            <ul>
+              <li>Planungs-Canvas und Checklisten je Schmiede.</li>
+              <li>Ordner für Assets, Messdaten und Dokumentation.</li>
+              <li>README-Vorlage für Story, Setup, Lessons Learned.</li>
+              <li>Beispiel-Workflow für Automatisierungen.</li>
+            </ul>
+            <div class="sf-hero-actions">
+              <a class="sf-btn sf-btn-primary" href="https://github.com/SkillForge-Git/project-template" target="_blank" rel="noreferrer">Template auf GitHub</a>
+              <a class="sf-btn sf-btn-ghost" href="../project-template/README.md" target="_blank" rel="noreferrer">Template-README</a>
+            </div>
+          </div>
+          <aside class="sf-github-template-meta">
+            <h4>Schnellzugriff</h4>
+            <ul>
+              <li><a href="https://github.com/orgs/SkillForge-Git/dashboard" target="_blank" rel="noreferrer">GitHub Dashboard</a></li>
+              <li><a href="https://github.com/SkillForge-Git" target="_blank" rel="noreferrer">Organisation ansehen</a></li>
+              <li><a href="https://github.com/SkillForge-Git?tab=repositories" target="_blank" rel="noreferrer">Alle öffentlichen Repos</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="sf-section">
+      <div class="sf-container">
+        <div class="sf-section-header">
+          <span class="sf-eyebrow">Mitmachen</span>
+          <h2>So nutzt du GitHub mit Skill-Forge</h2>
+        </div>
+        <div class="sf-grid">
+          <article class="sf-card">
+            <h3>Eigene Projekte starten</h3>
+            <p>Nutze das Template, um ein neues Repository anzulegen. Passe die Checklisten an dein Projekt an und dokumentiere jeden Schritt.</p>
+          </article>
+          <article class="sf-card">
+            <h3>Auf vorhandene Repos aufbauen</h3>
+            <p>Forke bestehende Projekte, reiche Pull Requests ein oder ergänze Dokumentation. Jede Verbesserung hilft der Community.</p>
+          </article>
+          <article class="sf-card">
+            <h3>Community stärken</h3>
+            <p>Reviews schreiben, Fragen beantworten, Ressourcen teilen – alles zählt. Sichtbare Aktivität wird bei Zertifikaten berücksichtigt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sf-section sf-section-alt">
+      <div class="sf-container sf-callout">
+        <div>
+          <h2>Nächster Schritt</h2>
+          <p>Du willst ein Projekt starten oder Skill-Forge unterstützen? Melde dich – wir vernetzen dich mit passenden Mentor:innen und Pilotgruppen.</p>
+        </div>
+        <div class="sf-hero-actions">
+          <a href="kontakt.html" class="sf-btn sf-btn-primary">Kontakt aufnehmen</a>
+          <a href="programme.html" class="sf-btn sf-btn-ghost">Programme ansehen</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sf-footer">
+    <div class="sf-container sf-footer-inner">
+      <span>© Skill-Forge</span>
+      <span>Domains: skill-forge.de · skill-forge.eu</span>
+    </div>
+  </footer>
+
+  <script>
+    const grid = document.querySelector('[data-github-grid]');
+    const escapeHtml = (value) => String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+
+    if (grid) {
+      const organisation = 'SkillForge-Git';
+      fetch(`https://api.github.com/orgs/${organisation}/repos?sort=updated&per_page=9`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('GitHub API Fehler');
+          }
+          return response.json();
+        })
+        .then((repos) => {
+          const visibleRepos = Array.isArray(repos)
+            ? repos.filter((repo) => !repo.archived)
+            : [];
+
+          if (!visibleRepos.length) {
+            grid.innerHTML = '<p class="sf-github-empty">Noch keine öffentlichen Repositories vorhanden.</p>';
+            return;
+          }
+
+          const fragment = document.createDocumentFragment();
+
+          visibleRepos.forEach((repo) => {
+            const card = document.createElement('article');
+            card.className = 'sf-card sf-card-github';
+            card.innerHTML = `
+              <div class="sf-card-top">
+                <h3>${escapeHtml(repo.name)}</h3>
+                <p>${escapeHtml(repo.description ?? 'Kein Beschreibungstext hinterlegt.')}</p>
+                <div class="sf-card-meta">
+                  <span>&#9733; ${repo.stargazers_count}</span>
+                  <span>Forks ${repo.forks_count}</span>
+                  <span>${new Date(repo.updated_at).toLocaleDateString('de-DE')}</span>
+                </div>
+              </div>
+              <footer class="sf-card-footer">
+                <a href="${repo.html_url}" target="_blank" rel="noreferrer">Repository</a>
+                ${repo.homepage ? `<a href="${repo.homepage}" target="_blank" rel="noreferrer">Live-Demo</a>` : ''}
+              </footer>
+            `;
+            fragment.appendChild(card);
+          });
+
+          grid.innerHTML = '';
+          grid.appendChild(fragment);
+        })
+        .catch(() => {
+          grid.innerHTML = '<article class="sf-card sf-card-github-error"><h3>GitHub aktuell nicht erreichbar</h3><p>Bitte später erneut versuchen oder direkt auf GitHub vorbeischauen.</p><footer class="sf-card-footer"><a href="https://github.com/SkillForge-Git" target="_blank" rel="noreferrer">Organisation öffnen</a></footer></article>';
+        });
+    }
+  </script>
+</body>
+</html>

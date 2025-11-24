@@ -81,6 +81,23 @@ main {
   z-index: 1;
 }
 
+.sf-page-intro {
+  display: grid;
+  gap: 1rem;
+  max-width: 62ch;
+}
+
+.sf-page-intro h1 {
+  margin: 0;
+  font-size: clamp(2.1rem, 4.5vw, 3.1rem);
+  line-height: 1.15;
+}
+
+.sf-page-intro p {
+  margin: 0;
+  color: var(--sf-muted);
+}
+
 .sf-section-dark {
   background: linear-gradient(135deg, rgba(8, 13, 24, 0.95) 0%, rgba(5, 7, 14, 0.8) 80%);
 }
@@ -159,6 +176,17 @@ main {
 .sf-nav a:focus-visible {
   background: rgba(249, 115, 22, 0.16);
   color: var(--sf-text);
+}
+
+.sf-nav a.is-current {
+  background: rgba(249, 115, 22, 0.22);
+  color: var(--sf-text);
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.35);
+}
+
+.sf-nav a.sf-nav-cta.is-current {
+  color: #0b0f17;
+  background: var(--sf-accent-dark);
 }
 
 .sf-nav-cta {
@@ -427,6 +455,28 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.sf-callout {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  padding: clamp(1.9rem, 4vw, 2.7rem);
+  border-radius: var(--sf-radius);
+  background: linear-gradient(135deg, rgba(18, 45, 68, 0.75) 0%, rgba(5, 7, 14, 0.9) 100%);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.45);
+}
+
+.sf-callout p {
+  margin: 0;
+  color: var(--sf-muted);
+}
+
+@media (min-width: 768px) {
+  .sf-callout {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}
+
 #forges .sf-grid {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
@@ -439,6 +489,30 @@ main {
   position: relative;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sf-card-link {
+  display: block;
+  color: inherit;
+}
+
+.sf-card-link-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1.1rem;
+  font-weight: 600;
+  color: var(--sf-accent);
+}
+
+.sf-card-link-label::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.sf-card-link:hover .sf-card-link-label::after,
+.sf-card-link:focus-visible .sf-card-link-label::after {
+  transform: translateX(4px);
 }
 
 .sf-card::after {

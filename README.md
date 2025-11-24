@@ -41,7 +41,7 @@ Zusammenbau, Testing, Troubleshooting, Dokumentation, Zertifikat.
 ## GitHub Organisation: SkillForge-Git
 - Öffentliche Adresse: [github.com/SkillForge-Git](https://github.com/SkillForge-Git)  
 - Dashboard & interne Planung: [SkillForge GitHub Dashboard](https://github.com/orgs/SkillForge-Git/dashboard)  
-- Template Repository (Projekt-Schmiede): `project-template` (siehe [`docs/project-template.md`](docs/project-template.md))  
+- Template Repository (Projekt-Schmiede): `project-template` (siehe [`project-template/README.md`](project-template/README.md))  
 - Geplante Inhalte: Beispielprojekte, Kurs-Repositories, Automatisierung (GitHub Actions) und Community-Beiträge
 
 Jedes Skill-Forge-Projekt startet mit einem neuen Repository auf Basis der Projekt-Schmiede. Die Template-Struktur deckt Grob- und Detailplanung, Dokumentation je Forge, Assets für Bilder/Videos sowie fertige README-Bausteine ab.
