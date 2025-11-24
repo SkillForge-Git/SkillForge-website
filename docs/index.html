@@ -2,147 +2,219 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Skill-Forge – Technik lernen, Zukunft schmieden</title>
+  <title>Skill-Forge – Zukunftskompetenzen für Kamenz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Skill-Forge ist die moderne Bildungsschmiede in Kamenz. Erfahre, wie wir Technik für alle zugänglich machen.">
+  <meta name="description" content="Skill-Forge ist der offene Technikcampus in Kamenz. Wir verbinden Makerspace, Bildung und Community für sichtbare Zukunftskompetenzen.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="page-home">
-  <header class="sf-header">
-    <div class="sf-container sf-header-inner">
-      <a href="index.html" class="sf-logo">Skill<span>Forge</span></a>
-      <nav class="sf-nav">
-        <a href="index.html" class="is-current">Start</a>
-        <a href="konzept.html">Konzept</a>
-        <a href="open-space.html">Open Space</a>
-        <a href="bildung.html">Bildung</a>
-        <a href="spielerisch.html">Spielerisch lernen</a>
-        <a href="kontakt.html" class="sf-nav-cta">Kontakt</a>
+<body class="page page--home">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo">Skill<span>Forge</span></a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false">Menü</button>
+      <nav class="site-nav" data-nav>
+        <a href="index.html" class="site-nav__link is-active">Start</a>
+        <a href="konzept.html" class="site-nav__link">Konzept</a>
+        <a href="open-space.html" class="site-nav__link">Open Space</a>
+        <a href="bildung.html" class="site-nav__link">Bildung</a>
+        <a href="spielerisch.html" class="site-nav__link">Spielerisch lernen</a>
+        <a href="kontakt.html" class="site-nav__link site-nav__cta">Kontakt</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="sf-section sf-hero">
-      <div class="sf-container sf-hero-inner">
-        <div class="sf-hero-copy">
-          <span class="sf-eyebrow">Moderne Bildungsschmiede</span>
-          <h1>Skill-Forge: Technik lernen, Zukunft schmieden</h1>
-          <p>Skill-Forge ist eine offene Bildungseinrichtung mit Makerspace. Der erste Standort entsteht in Kamenz und dient als Pilot für ein wachsendes Netzwerk. Menschen ab 12 Jahren nutzen moderne Maschinen, digitale Tools und Mentor:innen, um eigene Ideen in greifbare Artefakte zu verwandeln.</p>
-          <p>Wir verbinden offene Werkstatt, strukturierte Lernpfade und Community. Dokumentiert wird transparent in GitHub – so bleiben Fortschritte sichtbar und Wissen wird geteilt.</p>
-          <p class="sf-note">Diese Website beschreibt den aktuellen Planungsstand. Die Vision in ihrer Gesamtheit findest du auf der eigenen Seite.</p>
-          <ul class="sf-hero-attributes">
-            <li>Zugang zu Technik – unabhängig von Budget, Vorwissen oder Herkunft.</li>
-            <li>Strukturierte Lernpfade entlang der fünf Skill-Forge-Säulen.</li>
-            <li>Community, die Projekte sichtbar macht und Wissen teilt.</li>
-          </ul>
-          <div class="sf-hero-actions">
-            <a href="vision.html" class="sf-btn sf-btn-primary">Vision lesen</a>
-            <a href="kontakt.html" class="sf-btn sf-btn-ghost">Kontakt aufnehmen</a>
+    <section class="hero hero--image" style="--hero-image: url('https://images.unsplash.com/photo-1756723902460-235b1f21ad05?auto=format&fit=crop&w=1600&q=80');">
+      <div class="hero__inner">
+        <div>
+          <span class="hero__badge">Kamenz · Pilot 2026</span>
+          <h1 class="hero__title">Wir bauen einen offenen Technikcampus, an dem Ideen zu Prototypen werden.</h1>
+          <p class="hero__text">Skill-Forge vereint Makerspace, Lernpfade und Community. Menschen ab 12 Jahren erhalten Zugang zu Werkzeugen, Mentor:innen und Zertifikaten – unabhängig vom Budget. Alles, was entsteht, wird in GitHub dokumentiert und bleibt nachvollziehbar.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="konzept.html">Konzept kennenlernen</a>
+            <a class="btn btn--ghost" href="kontakt.html">Fördergespräch anfragen</a>
+          </div>
+          <div class="kpi-grid">
+            <article class="kpi-card">
+              <strong>200 m²</strong>
+              <span>Offene Kreativfläche zum Tüfteln und Lernen</span>
+            </article>
+            <article class="kpi-card">
+              <strong>5 Zonen</strong>
+              <span>Fünf thematische Bereiche mit eigenen Werkzeugen und Mentor:innen</span>
+            </article>
+            <article class="kpi-card">
+              <strong>100 %</strong>
+              <span>Dokumentiert in GitHub – offen & bereit zum Sharen</span>
+            </article>
           </div>
         </div>
-        <aside class="sf-hero-panel">
-          <div class="sf-pill">Pilotstandort Kamenz</div>
-          <p class="sf-hero-panel-lead">Für Jugendliche ab 12 Jahren, Azubis, Studierende und Erwachsene.</p>
-          <ul class="sf-hero-list">
-            <li><strong>Mentor:innen:</strong> Begleiten von der Idee bis zur Talent Schmiede.</li>
-            <li><strong>Werkstatt:</strong> 3D-Druck, Laser-Cutter, Elektronik, CAD & Coding.</li>
-            <li><strong>Zertifikate:</strong> Skill-Forge-Nachweise für echte Kompetenzen.</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section class="sf-section">
-      <div class="sf-container">
-        <div class="sf-section-header">
-          <span class="sf-eyebrow">Überblick</span>
-          <h2>Dein Einstieg in die Schmiede</h2>
-          <p>Die Skill-Forge-Website ist jetzt in mehrere Seiten unterteilt. Jede Seite vertieft einen Aspekt der Vision und führt dich gezielt zu den Infos, die du brauchst.</p>
-        </div>
-        <div class="sf-grid">
-          <a class="sf-card sf-card-link" href="konzept.html">
-            <h3>Konzept & Ziele</h3>
-            <p>Zielbild, vier Kernziele und der Blick nach vorn – plus unsere GitHub-Projekte als digitale Werkbank.</p>
-            <span class="sf-card-link-label">Konzept ansehen</span>
-          </a>
-          <a class="sf-card sf-card-link" href="open-space.html">
-            <h3>Open Space</h3>
-            <p>Infos zum Standort Kamenz, Zugangsmöglichkeiten und wie der Makerspace aufgebaut ist.</p>
-            <span class="sf-card-link-label">Open Space entdecken</span>
-          </a>
-          <a class="sf-card sf-card-link" href="bildung.html">
-            <h3>Bildung & Kurse</h3>
-            <p>Kurse, Zertifikate sowie Projektwege und Community-Formate für gemeinsames Lernen.</p>
-            <span class="sf-card-link-label">Bildungsangebote</span>
-          </a>
-          <a class="sf-card sf-card-link" href="spielerisch.html">
-            <h3>Spielerisch lernen</h3>
-            <p>Gamification ohne Druck und die fünf Skill-Forge-Schmieden im Detail.</p>
-            <span class="sf-card-link-label">Schmieden & Gamification</span>
-          </a>
+        <div class="hero__visual">
+          <img src="https://images.unsplash.com/photo-1539068788002-5cc82ee0c1bb?auto=format&fit=crop&w=900&q=80" alt="Junge Menschen arbeiten gemeinsam an einem Technikprojekt">
+          <p class="section__lead" style="margin-top:1rem;">„Skill-Forge verbindet Handwerk, Coding und Kreativität – so entsteht Selbstvertrauen für echte Zukunftsprojekte in Kamenz und Sachsen.“</p>
         </div>
       </div>
     </section>
 
-    <section class="sf-section sf-section-alt">
-      <div class="sf-container">
-        <div class="sf-section-header">
-          <span class="sf-eyebrow">Status</span>
-          <h2>Aktueller Stand & Nächste Schritte</h2>
-          <p>Skill-Forge befindet sich in der Aufbauphase. Wir arbeiten parallel an Vereinsgründung, Standortaufbau und Kursentwicklung.</p>
-        </div>
-        <div class="sf-grid">
-          <article class="sf-card">
-            <h3>Was bereits steht</h3>
-            <ul>
-              <li>Vision, Roadmap und Ausstattungsliste sind definiert.</li>
-              <li>GitHub-Organisation mit erstem Template-Repository ist angelegt.</li>
-              <li>Grundkonzept für Kurse und Zertifikate liegt vor.</li>
-            </ul>
+    <section>
+      <div class="section__inner">
+        <span class="section__eyebrow">Warum Skill-Forge?</span>
+        <h2 class="section__title">Vier Versprechen an Stadt, Bildungspartner und Förder:innen</h2>
+        <p class="section__lead">Die Vision aus Vision.md wird erlebbar: Zugang, Kompetenzen, Community und sichtbare Ergebnisse. Jede Karte knüpft direkt an unsere Förderziele an.</p>
+        <div class="card-grid">
+          <article class="card card--glass">
+            <div class="icon-chip"><img src="https://cdn.jsdelivr.net/npm/lucide-static@0.294.0/icons/door-open.svg" alt="Icon Zugang"></div>
+            <h3>Zugang schaffen</h3>
+            <p>Offene Werkstattzeiten, Leih-Equipment, Mentoring. Skill-Forge senkt Barrieren und macht Technik unabhänging von Herkunft oder Budget zugänglich.</p>
           </article>
-          <article class="sf-card">
-            <h3>Woran wir arbeiten</h3>
-            <ul>
-              <li>Vereinsgründung und Förderanträge vorbereiten.</li>
-              <li>Räume für den Pilot in Kamenz sichern und ausstatten.</li>
-              <li>Kurscurricula testen und Feedback der Community einholen.</li>
-            </ul>
+          <article class="card card--glass">
+            <div class="icon-chip"><img src="https://cdn.jsdelivr.net/npm/lucide-static@0.294.0/icons/goal.svg" alt="Icon Ziele"></div>
+            <h3>Kompetenzen messbar machen</h3>
+            <p>Lernpfade entlang der fünf Schmieden. Jede Phase schließt mit Eisen-, Stahl- oder Titan-Rang ab und wird in GitHub nachvollziehbar dokumentiert.</p>
           </article>
-          <article class="sf-card">
-            <h3>Wie du helfen kannst</h3>
-            <ul>
-              <li>Dich als Mentor:in oder Unterstützer:in melden.</li>
-              <li>Equipment, Expertise oder Fördermittel einbringen.</li>
-              <li>Frühe Pilotgruppen (Schule, Verein, Firma) organisieren.</li>
-            </ul>
+          <article class="card card--glass">
+            <div class="icon-chip"><img src="https://cdn.jsdelivr.net/npm/lucide-static@0.294.0/icons/users.svg" alt="Icon Community"></div>
+            <h3>Community vernetzen</h3>
+            <p>Skill-Forge verbindet Schulen, Vereine, Start-ups und Ehrenamt. Wissenstransfer passiert über gemeinsame Projekte und Mentoring.</p>
+          </article>
+          <article class="card card--glass">
+            <div class="icon-chip"><img src="https://cdn.jsdelivr.net/npm/lucide-static@0.294.0/icons/badge-check.svg" alt="Icon Zertifikat"></div>
+            <h3>Ergebnisse zeigen</h3>
+            <p>Prototypen, Dokumentationen, Zertifikate und Showcases beweisen Wirkung – eine solide Basis für Förderberichte und Sponsor:innen.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="sf-section">
-      <div class="sf-container sf-callout">
-        <div>
-          <h2>Gemeinsam Zukunft schmieden</h2>
-          <p>Du willst teilnehmen, mitgestalten oder Skill-Forge nach Kamenz holen? Wir freuen uns über jede Anfrage – egal ob als Lernende, Mentor:in, Partner oder Sponsor.</p>
-        </div>
-        <div class="sf-hero-actions">
-          <a href="kontakt.html" class="sf-btn sf-btn-primary">Kontakt aufnehmen</a>
-          <a href="konzept.html" class="sf-btn sf-btn-ghost">Konzept lesen</a>
+    <section class="section--alt">
+      <div class="section__inner">
+        <span class="section__eyebrow">Standort Kamenz</span>
+        <h2 class="section__title">Eine Industriehalle wird zur Lernlandschaft</h2>
+        <p class="section__lead">Der Makerspace wird in fünf Zonen gegliedert – passend zu den Skill-Forge-Säulen. Jede Zone besitzt eigene Sicherheits- und Lernmaterialien.</p>
+        <div class="media-card" style="margin-top:2.5rem;">
+          <div class="media-card__image" style="background-image:url('https://images.unsplash.com/photo-1748609422318-7301636fb625?auto=format&fit=crop&w=1200&q=80');"></div>
+          <div class="media-card__body">
+            <h3>Projektfahrplan</h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <h4>Q1 2026 · Kick-off & Standortsuche</h4>
+                <p>Team aufstellen, Verein gründen, Förderbedarf dokumentieren und geeignete Räume in Kamenz sichten.</p>
+              </div>
+              <div class="timeline__item">
+                <h4>Q2 2026 · Standortentscheidung & Aufbau</h4>
+                <p>Favorisierte Halle anmieten, Umbau planen, Zonen definieren und erste Website-Version live schalten.</p>
+              </div>
+              <div class="timeline__item">
+                <h4>Q3 2026 · Pilotgruppen</h4>
+                <p>Alpha-Kurse in zwei Säulen testen, Mentor:innen schulen, GitHub-Template und Projektgalerie befüllen.</p>
+              </div>
+              <div class="timeline__item">
+                <h4>Q4 2026 · Öffnung & Reporting</h4>
+                <p>Soft Opening, komplette Kursserien starten, KPI-Dashboard & Förderberichte veröffentlichen.</p>
+              </div>
+              <div class="timeline__item">
+                <h4>Q1 2027 · Vollbetrieb</h4>
+                <p>Alle fünf Säulen parallel anbieten, Wartungs- und Mentoringprozesse stabilisieren, Website um KPI-Module erweitern.</p>
+              </div>
+              <div class="timeline__item">
+                <h4>2027 · Skalierung & Netzwerk</h4>
+                <p>Standardisierte Kursunterlagen, Partnerprogramme und Pop-up-Forges aufbauen, zweitens Standort prüfen.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="section__inner">
+        <span class="section__eyebrow">Bausteine</span>
+        <h2 class="section__title">Was Förder:innen erhalten</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Transparente Wirkung</h3>
+            <ul class="list-check">
+              <li>KPI-Dashboard (Teilnehmende, Zertifikate, Projekte).</li>
+              <li>GitHub-Berichte mit Lessons Learned.</li>
+              <li>Regelmäßige Site-Visits und Showcases.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Saubere Governance</h3>
+            <ul class="list-check">
+              <li>Vereinsstruktur + Partnerverträge.</li>
+              <li>Sicherheits- & Datenschutzkonzept.</li>
+              <li>Mentor:innen-Onboarding mit Checks.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Storytelling & Medien</h3>
+            <ul class="list-check">
+              <li>Professionelle Foto- und Videodokumentation.</li>
+              <li>Community-Blog & Newsletter.</li>
+              <li>Einbindung in Veranstaltungen der Stadt.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section--alt">
+      <div class="section__inner">
+        <span class="section__eyebrow">Vertiefung</span>
+        <h2 class="section__title">Vision & Unterseiten</h2>
+        <p class="section__lead">Die Vision.md dient als vollständige Guideline. Die Unterseiten dieser Website greifen die Inhalte auf und bereiten sie für Gespräche mit Stadt, Schulen und Sponsor:innen auf.</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <strong>Konzept</strong>
+            <p>Strategie, Finanzierungsbedarf und GitHub-Spotlight.</p>
+          </article>
+          <article class="feature-card">
+            <strong>Open Space</strong>
+            <p>Raumplan, Sicherheit, Ausstattung je Schmiede.</p>
+          </article>
+          <article class="feature-card">
+            <strong>Bildung</strong>
+            <p>Kurse, Zertifikate, Projektwege & Community-Beiträge.</p>
+          </article>
+          <article class="feature-card">
+            <strong>Spielerisch lernen</strong>
+            <p>Gamification-Ansatz, Quests & die fünf Säulen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="cta-banner">
+      <div class="cta-banner__copy">
+        <h2>Wir suchen Partner:innen, die Technikbildung beschleunigen.</h2>
+        <p>Ob Stadt, Unternehmen oder Stiftung – wir teilen gerne Zahlen, Roadmap und konkrete Projektideen. Lass uns sprechen.</p>
+      </div>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="kontakt.html">Gespräch vereinbaren</a>
+        <a class="btn btn--ghost" href="../Vision.md" target="_blank" rel="noopener">Vision.md öffnen</a>
+      </div>
+    </div>
   </main>
 
-  <footer class="sf-footer">
-    <div class="sf-container sf-footer-inner">
-      <span>© Skill-Forge</span>
-      <span>Domains: skill-forge.de · skill-forge.eu</span>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>© Skill-Forge · Pilotstadt Kamenz</span>
+      <span>skill-forge.de · skill-forge.eu</span>
     </div>
   </footer>
+
+  <script>
+    const navToggle = document.querySelector('[data-nav-toggle]');
+    const nav = document.querySelector('[data-nav]');
+    navToggle?.addEventListener('click', () => {
+      const isOpen = nav?.getAttribute('data-open') === 'true';
+      nav?.setAttribute('data-open', String(!isOpen));
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  </script>
 </body>
 </html>
